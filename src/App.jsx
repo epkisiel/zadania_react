@@ -1,5 +1,6 @@
 import LoginForm from  "./components/LoginForm"
 import ProductForm from  "./components/ProductForm"
+import ContactForm from  "./components/ContactForm"
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       <br/>
       <h2>04. task 2</h2>
       <ProductForm/>
+      <br/>
+      <h2>05. task 1</h2>
+      <ContactForm/>
     </>
   );
 }
