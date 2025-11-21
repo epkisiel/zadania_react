@@ -3,7 +3,7 @@ import ProductForm from  "./components/ProductForm"
 import ContactForm from  "./components/ContactForm"
 import BookingForm from  "./components/BookingForm"
 import NewsletterForm from  "./components/NewsletterForm"
-
+import ReservationForm from "./components/ReservationForm"
 
 function App() {
   return (
@@ -22,6 +22,9 @@ function App() {
       <br/>
       <h2>06. task 1</h2>
       <NewsletterForm/>
+      <br/>
+      <h2>06. task 2</h2>
+      <ReservationForm/>
     </>
   );
 }
