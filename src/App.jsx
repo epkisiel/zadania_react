@@ -5,6 +5,9 @@ import BookingForm from  "./components/BookingForm"
 import NewsletterForm from  "./components/NewsletterForm"
 import ReservationForm from "./components/ReservationForm"
 import FeedbackForm from "./components/FeedbackForm"
+import EventRegistrationForm from "./components/EventRegistrationForm"
+import LoginForm08 from  "./components/LoginForm08"
+
 
 function App() {
   return (
@@ -29,6 +32,12 @@ function App() {
       <br/>
       <h2>07. task 1</h2>
       <FeedbackForm/>
+      <br/>
+      <h2>07. task 2</h2>
+      <EventRegistrationForm/>
+      <br/>
+      <h2>08. task 1</h2>
+      <LoginForm08/>
     </>
   );
 }
