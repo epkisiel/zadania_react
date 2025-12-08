@@ -7,11 +7,12 @@ import ReservationForm from "./components/ReservationForm"
 import FeedbackForm from "./components/FeedbackForm"
 import EventRegistrationForm from "./components/EventRegistrationForm"
 import LoginForm08 from  "./components/LoginForm08"
-
+import OrderForm from  "./components/OrderForm"
 
 function App() {
   return (
     <>
+    <h1>04. Budowa formularza</h1>
       <h2>04. task 1</h2>
       <LoginForm/>
       <br/>
@@ -38,6 +39,9 @@ function App() {
       <br/>
       <h2>08. task 1</h2>
       <LoginForm08/>
+      <br/>
+      <h2>08. task 2</h2>
+      <OrderForm/>
     </>
   );
 }
