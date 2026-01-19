@@ -10,6 +10,7 @@ import LoginForm08 from  "./components/LoginForm08"
 import OrderForm from  "./components/OrderForm"
 import Timer from  "./components/Timer"
 import PodswietlanieWieluElementow from "./components/PodswietlanieWieluElementow"
+import PasswordToggle from "./components/PasswordToggle"
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
       <h2>06. task 2</h2>
       <PodswietlanieWieluElementow/>
       <br/>
+      <h2>06. task 9</h2>
+      <PasswordToggle/>
+      <br/><br/>
 
     <h1>04. Budowa formularza</h1>
       <h2>04. task 1</h2>
