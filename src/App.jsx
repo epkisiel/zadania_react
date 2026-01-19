@@ -8,10 +8,17 @@ import FeedbackForm from "./components/FeedbackForm"
 import EventRegistrationForm from "./components/EventRegistrationForm"
 import LoginForm08 from  "./components/LoginForm08"
 import OrderForm from  "./components/OrderForm"
+import Timer from  "./components/Timer"
+import PodswietlanieWieluElementow from "./components/PodswietlanieWieluElementow"
 
 function App() {
   return (
     <>
+    <h1>01. Budowa komponentu</h1>
+      <h2>06. task 2</h2>
+      <PodswietlanieWieluElementow/>
+      <br/>
+
     <h1>04. Budowa formularza</h1>
       <h2>04. task 1</h2>
       <LoginForm/>
@@ -42,6 +49,11 @@ function App() {
       <br/>
       <h2>08. task 2</h2>
       <OrderForm/>
+      <br/>
+
+    <h1>05. Backend</h1>
+      <h2>01. task 1</h2>
+      {/*<Timer/>*/}
     </>
   );
 }
